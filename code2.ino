@@ -70,13 +70,7 @@ void loop() {
 */
 void onIsLightChange()  {
   // Add your code here to act upon IsLight change
-  if(isLight){
-    Serial.print("The sunlight is available.");
-    message = "The sunlight is available in you terrarium";
-  }else{
-    Serial.print("The sunlight is not available.");
-    message = "The sunlight is not available in you terrarium";
-  }
+
 }
 
 /*
